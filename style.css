@@ -1,0 +1,159 @@
+.cal{
+    display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   width: fit-content;
+    height: 60%;
+    border: 1px solid black;
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+   
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+h1{
+    color: white;
+    font-family: cursive;
+    letter-spacing: 3px;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+    background: linear-gradient(80deg, #20B2AA,white);
+}
+
+.inp{
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    background-color: rgba(0,0,0,0.1);
+}
+.gen{
+    width: 5%;
+    font-size: 20px;
+
+}
+div{
+    padding: 10px;
+}
+
+div select{
+   border-radius: 10px;
+ align-items: center;
+ font-size: 15px;
+}
+#ans,p,#msg{
+    font-size: 20px;
+    font-family: monospace;
+    padding: 10px;
+}
+button{
+    background-color: #20B2AA;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: monospace;
+}
+button:hover{
+    background-color:rgba(0,0,0,0.1);
+   color: black;
+}
+input::placeholder{
+font-size: 15px;
+}
+.img{
+    border: 1px solid black;
+    border-radius: 25px;
+    position: relative;
+    background:linear-gradient(to top, red 0, LightSalmon 33%, PaleGreen 33%, green 46%,green 46%, PaleGreen 66%, LightSalmon 66%, red 100%);
+
+}
+#pointer{
+   position: absolute;
+  
+   background: black;
+   transform-origin: top;
+  
+  
+}
+#age{
+    width: 83%;
+}
+#pointer {
+    width: 100px;
+    /* background-color: black; */
+   border-radius: 10px;
+   
+    margin-top: 275px;
+  }
+img{
+    width: 100px;
+    /* background-color: black; */
+   border-radius: 10px;
+   margin-left: -125px;
+    margin-top: 275px;
+}
+  
+.lowClass{
+    animation-name: low;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+  @keyframes low {
+    /* from {background-color: red;}
+    to {background-color: yellow;} */
+    from {margin-top: 275px;}
+    to {margin-top: 230px;}
+  }
+  .norClass{
+    animation-name: nor;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+  @keyframes nor {
+    /* from {background-color: red;}
+    to {background-color: yellow;} */
+    from {margin-top: 275px;}
+    to {margin-top: 170px;}
+  }
+  .highClass{
+    animation-name: high;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+  @keyframes high {
+    /* from {background-color: red;}
+    to {background-color: yellow;} */
+    from {margin-top: 275px;}
+    to {margin-top: 20px;}
+  }
+.naming{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    padding: 0;
+}
+.box{
+    /* border: 1px solid black; */
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 500;
+    padding: 0;
+}

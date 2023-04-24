@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link href="style.css" type="text/CSS" rel="stylesheet">
+</head>
+<body>
+<h1>BMI Calculator</h1>
+<div class="main">
+    <div class="cal">
+
+<input type="text" id="age" class="inp" placeholder="Age">
+
+<div >
+<input type="text" id="height" class="inp" placeholder="Enter height">
+<select id="hUnit">
+    <option>cms</option>
+    <option>inches</option>
+    <option>feet</option>
+</select>
+</div>
+
+<div >
+<input type="text" id="weight" class="inp" placeholder="Enter weight">
+<select id="wUnit">
+        <option>kgs</option>
+        <option>pounds</option>
+</select>
+</div>
+<!-- <p>Gender
+<input type="radio" value="Male" name="Gender" class="gen">Male
+<input type="radio" value="Male" name="Gender" class="gen">Female
+</p> -->
+<button onclick="cal()">Calculate</button>
+
+
+    <label id="ans"></label>
+    <span id="msg"></span>
+
+    
+</div>
+
+<div class="img">
+    <!-- <div id="pointer"><span id="msg"></span></div> -->
+
+</div>
+<div class="naming">
+    <div class="box">Obese</div>
+    <div class="box">Normal</div>
+    <div class="box">Under Weight</div>
+</div>
+<img src="images/arr-removebg-preview.png" height="50px" width="200px" id="im" >
+
+
+   
+
+</div>
+<script src="bmi.js"></script>
+</body>
+</html>
